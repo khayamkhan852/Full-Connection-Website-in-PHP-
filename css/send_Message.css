@@ -1,0 +1,56 @@
+body {
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    text-align: center;
+}
+
+.caption {
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+}
+
+.caption p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.caption h1 {
+    color: wheat;
+}
+
+form {
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    border-radius: 7px;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}

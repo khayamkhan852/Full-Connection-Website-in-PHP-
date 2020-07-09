@@ -1,0 +1,49 @@
+body {
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+.sender_Container,
+.time,
+.message {
+    width: 50%;
+    margin: auto;
+}
+
+.sender_Container {
+    background: #aa4b6b;
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    height: 8vh;
+    margin-top: 60px;
+}
+
+.sender_Container h3 {
+    height: 8vh;
+    padding-top: 3.5vh;
+    font-size: 4vh;
+}
+
+.time {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    height: 8vh;
+}
+
+.time h3 {
+    padding-top: 4vh;
+}
+
+.message {
+    height: 25vh;
+    background: #6D6027;
+    background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);
+    background: linear-gradient(to right, #D3CBB8, #6D6027);
+}
+
+.message p {
+    font-size: 3.5vh;
+    padding-top: 3.5vh;
+}

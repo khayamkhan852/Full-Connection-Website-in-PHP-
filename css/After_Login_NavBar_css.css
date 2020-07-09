@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    background-color: black;
+}
+
+.logo_Container,
+.nav_Links,
+.cart {
+    display: flex;
+}
+
+.logo_Container {
+    flex: 1;
+}
+
+.logo {
+    color: white;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    width: 50%;
+    padding: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav_Links {
+    justify-content: space-around;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav_Link {
+    color: white;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+    padding: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cart {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.btn {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 10vh;
+    }
+    .logo {
+        width: 60%;
+        padding: 10px;
+        font-weight: 200;
+    }
+    .nav_Link {
+        width: 50%;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .btn {
+        border-radius: 10px;
+        padding: 12px;
+        font-size: 10px;
+    }
+}
