@@ -9,8 +9,10 @@ this is a complete mini php website where you can :
    #### Outbox
    
    ## How to Setup
-There is a folder name Database where SQL database is there, by dowbloading the Repo You can import that database file and name it whatever You want.
+Copy all the files into www directory of your local server.
+For to load the website write http://localhost/Your_Folder_Name/ and you  will see the website running.
 
+There is a folder name Database where SQL database is there, by dowbloading the Repo You can import that database file and name it whatever You want.
 After importing the database file into local sever (Wamp, Xampp, etc.) then rename the database name in the ./includes/Database_Connection.php. 
 
 ```php
