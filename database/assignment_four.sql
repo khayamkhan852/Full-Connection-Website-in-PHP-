@@ -46,11 +46,11 @@ CREATE TABLE IF NOT EXISTS `messages_table` (
 
 INSERT INTO `messages_table` (`id`, `To_Email`, `From_Email`, `Actual_Text_Message`, `Time_of_Message`) VALUES
 (1, 'umar@gmail.com', 'khayamkhan852@gmail.com', 'This is Message from Khayam khan', '2020-06-28'),
-(2, 'khayamkhan852@gmail.com', 'umar@gmail.com', 'this 1 message from umar', '2020-06-28'),
-(3, 'khayamkhan852@gmail.com', 'umar@gmail.com', 'this is 2 message from umar', '2020-06-28'),
-(4, 'khayamkhan852@gmail.com', 'umar@gmail.com', 'this is 3 message from umar', '2020-06-28'),
-(5, 'khayamkhan852@gmail.com', 'abc@gmail.com', 'this is message from Akmal', '2020-06-28'),
-(6, '16pwcse1476@uetpeshawar.edu.pk', 'khayamkhan852@gmail.com', 'this a message from khayam to 16pwcse1476@uetpeshawar.edu.pk', '2020-06-28');
+(2, 'khayamkhan852@gmail.com', 'abc@gmail.com', 'this 1 message from umar', '2020-06-28'),
+(3, 'khayamkhan852@gmail.com', 'bca@gmail.com', 'this is 2 message from umar', '2020-06-28'),
+(4, 'khayamkhan852@gmail.com', 'cdf@gmail.com', 'this is 3 message from umar', '2020-06-28'),
+(5, 'khayamkhan852@gmail.com', 'fhek@gmail.com', 'this is message from Akmal', '2020-06-28'),
+(6, '16pwcse1476@uetpeshawar.edu.pk', 'khayamkhan852@gmail.com', 'this a message from abc to 16pwcse1476@uetpeshawar.edu.pk', '2020-06-28');
 
 -- --------------------------------------------------------
 
