@@ -18,7 +18,7 @@ After importing the database file into local sever (Wamp, Xampp, etc.) then rena
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "assignment_four";
+$dBName = "Your_Database_Name"; // change the database name here
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName,"3308");
 
